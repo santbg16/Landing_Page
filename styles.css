@@ -3,11 +3,12 @@ body {
     font-family: "roboto";
     margin: 0;
     padding: 0;
-    background-color: #1f2937;
-    color: #f9faf8;   
+    flex-direction: column;
 }
 .header {
-    padding: 0 225px 0 225px;
+    padding: 0 225px 100px 225px;
+    background-color: #1f2937;
+    color: #f9faf8;   
 }
 .title {
     font-size: 24px;
@@ -19,7 +20,7 @@ body {
     justify-content: space-between;
     margin-bottom: 100px;
 }
-ul {
+.headerlinks ul {
     list-style: none;
     text-decoration: none;
     display: flex;
@@ -49,8 +50,10 @@ a:link{
 .picture {
     display: flex;
     justify-content: flex-end;
+    width: 200px;
+    height: auto;
 }
-img {
+.header img {
     width: 200px;
     height: auto;
     
@@ -63,4 +66,35 @@ button {
     border-radius: 10px;
     border: none;
     margin-top: 10px;
+}
+.midtop {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.midheader {
+    align-self: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 50px;
+}
+.imagedescription img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.imagedescription ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+    padding: 50px 50px 70px 50px;
+}
+.imagedescription li {
+    width: 150px;
 }
