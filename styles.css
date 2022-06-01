@@ -58,7 +58,7 @@ a:link{
     height: auto;
     
 }
-button {
+.text button {
     align-self: flex-start;
     padding: 8px 20px;
     background-color: #3882f6;
@@ -97,4 +97,52 @@ button {
 }
 .imagedescription li {
     width: 150px;
+}
+.midbottom {
+    background-color: #e5e7eb;
+    padding: 200px 400px 200px 400px;
+}
+.maintext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+.signed {
+    font-weight: bold;
+    text-align: end;
+}
+.buy {
+    margin: 150px 250px 150px 200px;
+    padding: 50px 125px 50px 125px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.prompt,
+.subprompt {
+    font-size: 22px;
+    color: white;
+    text-align: start;
+}
+.prompt {
+    font-weight: bold;
+}
+.buy button {
+    display: flex;
+    align-items: center;
+    padding: 0px 15px 0px 15px;
+    border-width: 2px;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: whitesmoke;
+    height: 30px;
+}
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;   
+    padding: 40px;
+    text-align: center;
 }
